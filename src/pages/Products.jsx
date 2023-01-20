@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Card from '../components/Card'
 import { useStateContext } from '../context/StateContext'
-import Spinner from '../spinner/spinner'
+import Spinner from '../spinner/Spinner'
 
 const Products = () => {
     const {state: {products, cart}} = useStateContext()
