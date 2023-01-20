@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import { getData } from '../Api'
 import {AiFillStar} from 'react-icons/ai'
 import { useStateContext } from '../context/StateContext'
-import Spinner from '../spinner/spinner'
+import Spinner from '../spinner/Spinner'
 
 const ProductDetail = () => {
 
